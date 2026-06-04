@@ -211,14 +211,8 @@ async function fetchAdminUsername(backendPort: number): Promise<string> {
 
 async function main(): Promise<void> {
   augmentPathWithNvm();
-  if (process.platform === 'win32') {
-    const customPaths = [
-      'C:\\Users\\ASUS\\AppData\\Roaming\\npm',
-      'C:\\Users\\ASUS\\AppData\\Roaming\\Claude\\claude-code\\2.1.92',
-      'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Antigravity\\bin',
-      'C:\\Users\\ASUS\\.antigravity-ide\\extensions\\openai.chatgpt-26.601.20914-win32-x64\\bin\\windows-x86_64',
-    ];
-    process.env.PATH = `${process.env.PATH};${customPaths.join(';')}`;
+  if (process.platform === 'win32' && process.env.AIONUI_CUSTOM_PATH) {
+    process.env.PATH = `${process.env.PATH};${process.env.AIONUI_CUSTOM_PATH}`;
   }
   process.env.NODE_OPTIONS = (process.env.NODE_OPTIONS || '') + ' --max-old-space-size=4096';
   runPackageIfNeeded();
