@@ -216,7 +216,7 @@ async function main(): Promise<void> {
       'C:\\Users\\ASUS\\AppData\\Roaming\\npm',
       'C:\\Users\\ASUS\\AppData\\Roaming\\Claude\\claude-code\\2.1.92',
       'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Antigravity\\bin',
-      'C:\\Users\\ASUS\\.antigravity-ide\\extensions\\openai.chatgpt-26.601.20914-win32-x64\\bin\\windows-x86_64'
+      'C:\\Users\\ASUS\\.antigravity-ide\\extensions\\openai.chatgpt-26.601.20914-win32-x64\\bin\\windows-x86_64',
     ];
     process.env.PATH = `${process.env.PATH};${customPaths.join(';')}`;
   }
