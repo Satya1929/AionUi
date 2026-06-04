@@ -135,6 +135,15 @@ if (process.platform === 'darwin' || process.platform === 'linux') {
       // Ignore errors when reading nvm directory
     }
   }
+} else if (process.platform === 'win32') {
+  const customPaths = [
+    'C:\\Users\\ASUS\\AppData\\Roaming\\npm',
+    'C:\\Users\\ASUS\\AppData\\Roaming\\Claude\\claude-code\\2.1.92',
+    'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Antigravity\\bin',
+    'C:\\Users\\ASUS\\.antigravity-ide\\extensions\\openai.chatgpt-26.601.20914-win32-x64\\bin\\windows-x86_64',
+    'C:\\Users\\ASUS\\Desktop\\Satya\\Projects\\Aion UI\\resources\\bundled-aioncore\\win32-x64'
+  ];
+  process.env.PATH = `${process.env.PATH};${customPaths.join(';')}`;
 }
 
 // Handle Squirrel startup events (Windows installer)
