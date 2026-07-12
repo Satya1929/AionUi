@@ -1,0 +1,123 @@
+# BRAIN_INDEX — Aion UI (spoke of the Fable5 hub brain)
+*auto-generated 2026-07-12 by `python brain/brain.py index` — regenerate after adding docs. One line per doc: path + first heading. The hub retrieval (`Fable5/brain/brain.py find`) reads ONLY this file to decide whether an answer lives in this project.*
+
+- [AGENTS.md] AionUi - Project Guide
+- [CHANGELOG.md] Changelog
+- [CLAUDE.md] @AGENTS.md
+- [CONTRIBUTING.md] Contributing Guide
+- [CONTRIBUTING.zh.md] 贡献指南
+- [readme.md] <p align="center">
+- [.aionui/FEATURE_CHANNELS.md] AionUi 个人助手功能开发方案
+- [.aionui/FEATURE_CHANNELS_LARK_LARK.md] 飞书 (Lark) 接入方案
+- [.aionui/FEATURE_DEV_TEMPLATE.md] AionUi 功能开发规范模板
+- [.gemini/styleguide.md] AionUI Code Review Style Guide
+- [.github/CICD_SETUP.md] CI/CD 设置指南
+- [.github/pull_request_template.md] Pull Request
+- [docs/README.md] AionUi Docs
+- [scripts/README.md] Build Scripts Documentation
+- [.claude/commands/package-assistant.md] Package OfficeCLI Skill as AionUi Assistant
+- [.github/workflows/README.md] GPT Workflows
+- [.specify/memory/constitution.md] AionUi Constitution
+- [.specify/templates/agent-file-template.md] [PROJECT NAME] Development Guidelines
+- [.specify/templates/plan-template.md] Implementation Plan: [FEATURE]
+- [.specify/templates/spec-template.md] Feature Specification: [FEATURE NAME]
+- [.specify/templates/tasks-template.md] Tasks: [FEATURE NAME]
+- [docs/contributing/development.md] Development Guide
+- [docs/contributing/file-structure.md] File & Directory Structure
+- [docs/contributing/pr-automation.md] PR 自动化流程说明
+- [docs/guides/cdp.md] CDP (Chrome DevTools Protocol) for MCP Development
+- [docs/guides/deploy-server.md] AionUi Headless Server Deployment Guide
+- [docs/guides/hub-testing.md] Hub Backend 测试指南
+- [docs/guides/webui.md] AionUi WebUI Mode - Startup Guide
+- [docs/readme/readme_ch.md] <p align="center">
+- [docs/readme/readme_es.md] <p align="center">
+- [docs/readme/readme_jp.md] <p align="center">
+- [docs/readme/readme_ko.md] <p align="center">
+- [docs/readme/readme_pt.md] <p align="center">
+- [docs/readme/readme_ru.md] <p align="center">
+- [docs/readme/readme_tr.md] <p align="center">
+- [docs/readme/readme_tw.md] <p align="center">
+- [docs/readme/readme_uk.md] <p align="center">
+- [examples/ext-wecom-bot/README.md] ext-wecom-bot
+- [packages/web-host/README.md] @aionui/web-host
+- [tests/e2e/README.md] E2E Testing Guide
+- [.claude/skills/architecture/SKILL.md] name: architecture
+- [.claude/skills/bump-version/SKILL.md] name: bump-version
+- [.claude/skills/fix-issues/SKILL.md] name: fix-issues
+- [.claude/skills/fix-sentry/SKILL.md] name: fix-sentry
+- [.claude/skills/i18n/SKILL.md] name: i18n
+- [.claude/skills/oss-pr/SKILL.md] name: oss-pr
+- [.claude/skills/pr-automation/SKILL.md] name: pr-automation
+- [.claude/skills/pr-fix/SKILL.md] name: pr-fix
+- [.claude/skills/pr-review/SKILL.md] name: pr-review
+- [.claude/skills/pr-ship/SKILL.md] name: pr-ship
+- [.claude/skills/pr-verify/SKILL.md] name: pr-verify
+- [.claude/skills/testing/SKILL.md] name: testing
+- [docs/prds/assistants/README.md] 
+- [docs/prds/pet/README.md] 
+- [docs/prds/previews/README.md] 
+- [docs/prds/teams/README.md] 
+- [docs/prds/workspaces/README.md] 
+- [examples/e2e-full-extension/assistants/test-assistant-context.md] You are the E2E Test Assistant. Your purpose is to validate that the extension system correctly loads and applies assist
+- [examples/e2e-full-extension/skills/coding-skill.md] E2E Coding Skill
+- [examples/e2e-full-extension/skills/test-skill.md] E2E Test Skill
+- [examples/hello-world-extension/agents/hello-coder-context.md] Hello Coder Agent
+- [examples/hello-world-extension/agents/hello-researcher-context.md] Hello Researcher Agent
+- [examples/hello-world-extension/assistants/hello-assistant-context.md] You are the Hello World Assistant, a friendly and helpful AI assistant.
+- [examples/hello-world-extension/skills/issue-breakdown.md] Issue Breakdown Skill
+- [examples/hello-world-extension/skills/quick-summary.md] Quick Summary Skill
+- [tests/e2e/docs/parallel-feasibility.md] E2E Test Parallel Execution Feasibility
+- [tests/e2e/specs/README.md] Team E2E Specs
+- [.claude/skills/architecture/references/process.md] Main Process & Shared Layer
+- [.claude/skills/architecture/references/project-layout.md] Project Layout
+- [.claude/skills/architecture/references/renderer.md] Renderer Layer (`packages/desktop/src/renderer/`)
+- [.claude/skills/fix-issues/references/cdp-verification.md] CDP Verification — Renderer Process Errors
+- [.claude/skills/fix-issues/references/report-template.md] Report Templates
+- [.claude/skills/fix-issues/references/triage-rules.md] Triage Rules — GitHub Issues Decision Flow
+- [.claude/skills/fix-sentry/references/cdp-verification.md] CDP Verification — Renderer Process Errors
+- [.claude/skills/fix-sentry/references/report-template.md] Report Templates
+- [.claude/skills/fix-sentry/references/triage-rules.md] Triage Rules — Detailed Decision Flow
+- [docs/prds/conversations/acp/config.md] ACP 单聊 - AI 配置 (F-CONFIG)
+- [docs/prds/conversations/acp/display.md] ACP 单聊 - 实时反馈与展示 (F-DISPLAY)
+- [docs/prds/conversations/acp/messaging.md] ACP 单聊 - 消息发送与文件处理 (F-MSG + F-FILE-02)
+- [docs/prds/conversations/acp/permissions.md] ACP 单聊 - 权限与安全 (F-PERM)
+- [docs/prds/conversations/acp/README.md] ACP 单聊功能 PRD 索引
+- [docs/prds/conversations/acp/reliability.md] ACP 单聊 - 可靠性与错误处理 (F-RELIABILITY)
+- [docs/prds/conversations/acp/session.md] ACP 单聊 - 会话管理 (F-SESSION)
+- [docs/prds/conversations/acp/skills.md] ACP 单聊 - 技能扩展 (F-SKILL)
+- [docs/prds/conversations/custom/custom-agent.md] 设置页 → Agent 管理 → Custom Agent (F-CAGENT)
+- [docs/prds/conversations/custom/README.md] PRD 索引：Custom Agent（自定义 Agent 配置与连接测试）
+- [docs/prds/conversations/remote/README.md] 
+- [docs/prds/conversations/remote/remote-agent.md] 设置页 → Agents → 远端 Agents (F-RAGENT)
+- [docs/prds/remote/channels/channels.md] 设置页 → 远程连接 — Channels 渠道接入 (F-CHAN)
+- [docs/prds/remote/channels/README.md] PRD 索引：设置页 → 远程连接（Channels）
+- [docs/prds/remote/webui/README.md] PRD 索引：设置页 → 远程连接（WebUI）
+- [docs/prds/remote/webui/webui.md] 设置页 → 远程连接 — WebUI 服务 (F-WEBUI)
+- [docs/prds/settings/about/about-update.md] 设置页 → 关于 & 检查更新 (F-ABOUT)
+- [docs/prds/settings/about/README.md] 设置页 → 关于 & 检查更新 PRD 索引
+- [docs/prds/settings/display/README.md] 
+- [docs/prds/settings/llm_providers/README.md] 
+- [docs/prds/settings/skills/README.md] 
+- [docs/prds/settings/system/README.md] 
+- [tests/e2e/docs/assistants/discussion-log.zh.md] Assistant 需求文档讨论记录
+- [tests/e2e/docs/assistants/implementation-mapping.zh.md] Assistant E2E 实现映射
+- [tests/e2e/docs/assistants/requirements.zh.md] Assistant 设置页需求文档（反推自源码）
+- [tests/e2e/docs/assistants/test-cases.zh.md] Assistant 设置页补充测试用例（门 2）
+- [tests/e2e/docs/chat-aionrs/discussion-log.zh.md] Aion CLI (aionrs) E2E 测试 - 讨论记录
+- [tests/e2e/docs/chat-aionrs/implementation-mapping.zh.md] Aionrs Chat E2E 实现映射
+- [tests/e2e/docs/chat-aionrs/requirements.zh.md] Aion CLI (aionrs) E2E 测试需求
+- [tests/e2e/docs/chat-aionrs/test-cases.zh.md] Aion CLI (aionrs) E2E 测试用例
+- [tests/e2e/docs/skills-hub/discussion-log.zh.md] SkillsHubSettings 需求分析讨论记录
+- [tests/e2e/docs/skills-hub/engineer-preliminary-notes.md] SkillsHub E2E 工程师预备笔记
+- [tests/e2e/docs/skills-hub/engineer-review-testcases-v1.md] Engineer Review: test-cases.zh.md v1.0
+- [tests/e2e/docs/skills-hub/implementation-mapping.zh.md] Skills Hub E2E 实现映射
+- [tests/e2e/docs/skills-hub/requirements.zh.md] SkillsHubSettings 功能需求文档
+- [tests/e2e/docs/skills-hub/test-cases.zh.md] SkillsHubSettings E2E 测试用例
+- [tests/e2e/docs/skills-hub/test-strategy.zh.md] SkillsHub E2E 测试策略
+- [packages/desktop/src/renderer/styles/MIGRATION.md] Theme Color Migration Guide
+- [packages/desktop/src/renderer/services/i18n/README.md] 多语言支持 (i18n)
+- [packages/desktop/src/renderer/styles/themes/README.md] Theme System 主题系统
+- [packages/desktop/src/renderer/pages/conversation/Preview/README.cn.md] Preview 模块文档
+- [packages/desktop/src/renderer/pages/conversation/Preview/README.en.md] Preview Module Documentation
+- [packages/desktop/src/renderer/pages/conversation/Workspace/README.cn.md] Workspace 模块文档
+- [packages/desktop/src/renderer/pages/conversation/Workspace/README.en.md] Workspace Module Documentation
